@@ -42,13 +42,13 @@ export default function Profile() {
             steps={[
                 "Enthustastic Dev🔴",
                 1000,
-                "Full stack DEVLOPER 🖥️",
+                "Full stack DEVLOPER🖥️",
                 1000,
-                "MERN stack DEV 😎",
+                "MERN stack DEV😎",
                 1000,
-                "CROSS PLATFORM Dev 🌐",
+                "CROSS PLATFORM Dev🌐",
                 1000,
-                "REACT/REACT Native Dev 📲",
+                "REACT/REACT Native Dev",
                 1000,
             ]}
             />
