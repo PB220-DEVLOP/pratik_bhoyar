@@ -1,11 +1,11 @@
 import React from "react";
 import Typical from "react-typical"; 
 import "./Profile.css";
-
+import HireME from "../Hire_Me/HireME";
 
 export default function Profile() {
   return (
-    <div className="profile-container">
+    <div className="profile-container Profile">
       <div className="profile-parent">
         <div className="profile-details">
           <div className="colz">
@@ -38,19 +38,20 @@ export default function Profile() {
               {" "}
               <h1>
             <Typical
-            loop={Infinity}
             steps={[
-                "Enthustastic Dev🔴",
+                "Frountend dev",
                 1000,
-                "Full stack DEVLOPER🖥️",
+                "BackEnd Dev",
                 1000,
-                "MERN stack DEV😎",
+                "Bootstrap Framework",
                 1000,
-                "CROSS PLATFORM Dev🌐",
+                "PHP",
                 1000,
-                "REACT/REACT Native Dev",
+                "MongoDB",
                 1000,
             ]}
+            loop={Infinity}
+            wrapper="csdeosaat"
             />
               </h1>
               <span className='profile-role-tagline'>
@@ -59,12 +60,9 @@ export default function Profile() {
             </span>
           </div>
           <div className="profile-options">
-            <button className="btn primary-btn">
-                {" "}
-                HireMe{" "}
-            </button>
+           <HireME/>
             <a href='pbresume.pdf' download={'pbresume.pdf'} >
-            <button className="btn highlighted-btn">get resume</button>
+            <button className="btn highlighted-btn text-bg-secondary ">get resume</button>
             </a>
           </div>
         </div>

@@ -1,0 +1,12 @@
+.card-footer{
+    display: none;
+}
+.hover:hover{
+    transform:scale(1.1);
+    transition: 1s ease-in-out;
+
+    
+}
+.card-body:hover .card-footer{
+  display: block;
+}

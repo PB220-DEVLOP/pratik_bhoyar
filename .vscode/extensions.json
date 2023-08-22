@@ -1,5 +1,6 @@
 {
     "recommendations": [
-        "equimper.react-native-react-redux"
+        "equimper.react-native-react-redux",
+        "hossaini.bootstrap-intellisense"
     ]
 }
