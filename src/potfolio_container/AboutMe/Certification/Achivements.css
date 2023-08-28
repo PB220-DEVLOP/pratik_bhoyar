@@ -7,6 +7,6 @@
 
     
 }
-.card-body:hover .card-footer{
+.card-body:hover card-footer{
   display: block;
 }

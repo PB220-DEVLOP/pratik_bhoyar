@@ -2,6 +2,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle";
 import Typical from "react-typical";
+import About_us from "../../AboutMe/About_us";
 
 export default function Navbar() {
   return (
@@ -30,7 +31,7 @@ export default function Navbar() {
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
+                <a class="nav-link" href={<About_us/>}>
                   About Me
                 </a>
               </li>
