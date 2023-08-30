@@ -9,10 +9,10 @@ import aws from "./.././../../Assits/Certification/devtown certificate.png"
 export default function Achivements() {
   return (
     <div className=" container-fluid">
-        <h1 className="text-warning text-center border-bottom bg-dark mb-4 "> My Certification</h1>
+        <h1 className="text-warning text-center   mb-4 "> My Certification</h1>
       <div className="row">
         <div className="col-md-4 ">
-          <div className="card bg-dark text-light ">
+          <div className="card cretificate text-light ">
             <div className="card-body hover ">
               <div className="card-header ">
                 <img
@@ -35,7 +35,7 @@ export default function Achivements() {
           </div>
         </div>
         <div className="col-md-4 ">
-          <div className="card bg-dark text-light   ">
+          <div className="card bg-dark cretificate text-light   ">
             <div className="card-body hover ">
               <div className="card-header ">
                 <img
@@ -58,7 +58,7 @@ export default function Achivements() {
           </div>
         </div>
         <div className="col-md-4 ">
-          <div className="card bg-dark text-light  ">
+          <div className="card bg-dark cretificate text-light  ">
             <div className="card-body hover ">
               <div className="card-header ">
                 <img

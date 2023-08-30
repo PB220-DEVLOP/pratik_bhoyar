@@ -1,11 +1,16 @@
 .card-footer{
     display: none;
-}
+  }
+ 
 .hover:hover{
     transform:scale(1.1);
     transition: 1s ease-in-out;
-
     
+    
+}
+.cretificate{
+  background-image: linear-gradient( 109.6deg,  rgba(15,2,2,1) 11.2%, rgba(36,163,190,1) 91.1% );
+  border: 2px solid white;
 }
 .card-body:hover card-footer{
   display: block;
