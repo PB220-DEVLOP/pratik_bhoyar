@@ -30,7 +30,7 @@ export default function Profile() {
           <div className="profile-details-name">
             <span className="primary-text">
               {" "}
-              Hello, I'M <spam className="highlighted-text">Pratik</spam>
+              Hello, I'M <span className="highlighted-text">Pratik</span>
             </span>
           </div>
           <div className="profile-details-role">
@@ -51,7 +51,6 @@ export default function Profile() {
                 1000,
             ]}
             loop={Infinity}
-            wrapper="csdeosaat"
             />
               </h1>
               <span className='profile-role-tagline'>

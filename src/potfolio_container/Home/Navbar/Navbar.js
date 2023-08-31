@@ -2,18 +2,17 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle";
 import Typical from "react-typical";
-import About_us from "../../AboutMe/About_us";
 
 export default function Navbar() {
   return (
     <>
-      <nav class="navbar navbar-expand-lg  nav- " data-bs-theme="dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#Profile">
+      <nav className="navbar navbar-expand-lg  nav- " data-bs-theme="dark">
+        <div className="container-fluid">
+          <a className="navbar-brand" href="/">
             <h1>Portfolio</h1>
           </a>
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarText"
@@ -21,32 +20,32 @@ export default function Navbar() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarText">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">
+          <div className="collapse navbar-collapse" id="navbarText">
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+              <li className="nav-item">
+                <a className="nav-link active" aria-current="page" href="/">
                   Profile
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href={<About_us/>}>
+              <li className="nav-item">
+                <a className="nav-link" href="#adbout_me">
                   About Me
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
+              <li className="nav-item">
+                <a className="nav-link" href="/">
                   Certification/skills
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
+              <li className="nav-item">
+                <a className="nav-link" href="/">
                   ContactMe
                 </a>
               </li>
             </ul>
-            <span class="navbar-text">
+            <span className="navbar-text">
               <Typical
                 steps={[
                   "Crafting seamless digital experiences, one stack at a time.",
@@ -55,7 +54,7 @@ export default function Navbar() {
                   3000,
                 ]}
                 loop={Infinity}
-                wrapper="csdeosaat"
+          
               />
             </span>
           </div>

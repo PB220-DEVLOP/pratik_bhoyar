@@ -1,29 +1,23 @@
 import React from "react";
 
 // IMAGES IMPORTED
-import reactjs from "./../../../Assits/Skills-Icon/library.png";
-import Bootstrap from "./../../../Assits/Skills-Icon/bootstrap.png";
-import HTML from "./../../../Assits/Skills-Icon/html-5.png";
-import CSS from "./../../../Assits/Skills-Icon/css-3.png";
-import JS from "./../../../Assits/Skills-Icon/js.png";
-import SQL from "./../../../Assits/Skills-Icon/sql.png";
-import PHP from "./../../../Assits/Skills-Icon/php.png";
+import { BootstrapIcon, CssIcon, HtmlIcon, JsIcon, LibraryIcon, PhpIcon, SqlIcon } from "../../../Assits/Skills-Icon/iconexport";
 import "./Card.css";
 
 export default function Cards() {
   return (
     <div>
-      <div class="card mb-3 ">
-        <div class="row">
-          <div class="col-md-4 ">
+      <div className="card mb-3 ">
+        <div className="row">
+          <div className="col-md-4 ">
             <div className=" container  about-img"></div>
           </div>
-          <div class="col-md-8">
-            <div class="card-body ">
-              <h1 class="card-title text-warning">
+          <div className="col-md-8">
+            <div className="card-body ">
+              <h1 className="card-title text-warning">
                 Greetings! I'm Pratik Bhoyar
               </h1>
-              <p class="card-text">
+              <div className="card-text">
                 <p>
                   I'm a passionate and results-driven Full Stack Developer with
                   an unwavering enthusiasm for exploring new avenues of
@@ -66,17 +60,17 @@ export default function Cards() {
                   the compass, and my skills are the tools; let's map a course
                   to innovation that was previously uncharted.
                 </p>
-              </p>
+              </div>
               <hr className="border-4 " />
               <h4>Skills :-</h4>
               <div className="d-flex justify-content-between wrap   ">
-                <img src={HTML} alt="HTML LOGO" />
-                <img src={CSS} alt="CSS LOGO" />
-                <img src={JS} alt="JS LOGO" />
-                <img src={Bootstrap} alt="BOOTSTRAP LOGO" />
-                <img src={reactjs} alt="REACTJS LOGO" />
-                <img src={SQL} alt="SQL LOGO" />
-                <img src={PHP} alt="PHP LOGO" />
+                <img src={HtmlIcon} alt="HTML LOGO" />
+                <img src={CssIcon} alt="CSS LOGO" />
+                <img src={JsIcon} alt="JS LOGO" />
+                <img src={BootstrapIcon} alt="BOOTSTRAP LOGO" />
+                <img src={LibraryIcon} alt="REACTJS LOGO" />
+                <img src={SqlIcon} alt="SQL LOGO" />
+                <img src={PhpIcon} alt="PHP LOGO" />
               </div>
             </div>
           </div>
