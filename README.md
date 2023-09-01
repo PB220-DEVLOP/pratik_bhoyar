@@ -1,4 +1,4 @@
-# [Your Name]'s Portfolio Website
+# PRATIK's Portfolio Website
 
 Welcome to my portfolio website! This website is designed to showcase my professional journey, skills, and projects, while also offering some handy features for easy interaction.
 
@@ -26,8 +26,8 @@ To explore my portfolio website, simply click the following link: [Insert Websit
 
 ## Connect with Me
 
-- LinkedIn: [Insert Your LinkedIn Profile Link]
-- Email: [Insert Your Email Address]
+- LinkedIn: [https://www.linkedin.com/in/pratik-bhoyar-1b1176198/]
+- Email: [pratikofficial2205@gmail.com]
 
 ## Feedback and Collaborations
 
