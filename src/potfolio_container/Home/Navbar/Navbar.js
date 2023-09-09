@@ -7,8 +7,8 @@ export default function Navbar() {
   return (
     <>
       <nav className="navbar navbar-expand-lg  nav- " data-bs-theme="dark">
-        <div className="container-fluid">
-          <a className="navbar-brand" href="/">
+        <div className="container-fluid fixed-top  bg-dark bg-opacity-75">
+          <a className="navbar-brand" href="#home">
             <h1>Portfolio</h1>
           </a>
           <button
@@ -35,12 +35,12 @@ export default function Navbar() {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/">
+                <a className="nav-link" href="#certificate">
                   Certification/skills
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/">
+                <a className="nav-link" href="#contact">
                   ContactMe
                 </a>
               </li>

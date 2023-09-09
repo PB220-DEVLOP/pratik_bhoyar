@@ -1,6 +1,31 @@
-import React from "react";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
+import Not01 from "../../Notification/Not01";
 
-export default function HireME() {
+function HireME() {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_a2jp1nm",
+        "template_6j36hbi",
+        form.current,
+        "NuefVlgXicCVcJ4qA"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          console.log("sucessfully send");
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
   return (
     <>
       <button
@@ -28,50 +53,40 @@ export default function HireME() {
               </h1>
               <button
                 type="button"
-                className="btn-close"
+                className="btn-close bg-light "
                 data-bs-dismiss="modal"
                 aria-label="Close"
               ></button>
             </div>
             <div className="modal-body  ">
-              <form>
-                <div className="mb-3">
-                  <label htmlFor="recipient-name" className="col-form-label">
-                    Recipient:
-                  </label>
-                  <input
-                    type="text"
-                    className="form-control"
-                    id="recipient-name"
-                    placeholder="Enetr Your Email Or Contact Number"
-                  />
-                </div>
-                <div className="mb-3 ">
-                  <label htmlFor="message-text" className="col-form-label ">
-                    Message:
-                  </label>
-                  <textarea className="form-control" id="message-text"></textarea>
+              <form
+                ref={form}
+                onSubmit={sendEmail}
+                className=" p-5 text-light  "
+              >
+                <label className="form-label ">Name</label>
+                <input type="text" name="user_name" className="form-control " />
+                <br />
+                <label className="form-label ">Email</label>
+                <input
+                  type="email"
+                  name="user_email"
+                  className="form-control "
+                />
+                <br />
+                <label className="form-label "> Message</label>
+                <textarea name="message" className="form-control" />
+                <br />
+                <div className="container-fluid d-flex  ">
+                 <Not01/>
                 </div>
               </form>
-            </div>
-            <div className="modal-footer bg-dark ">
-              <button
-                type="button"
-                className="btn btn-secondary"
-                data-bs-dismiss="modal"
-              >
-                Close
-              </button>
-              <button type="button" className="btn btn-warning ">
-                Send message
-              </button>
             </div>
           </div>
         </div>
       </div>
-      <script>
-   </script>
+      <script></script>
     </>
-    
   );
 }
+export default HireME;

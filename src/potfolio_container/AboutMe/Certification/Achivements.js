@@ -8,7 +8,7 @@ import aws from "./.././../../Assits/Certification/devtown certificate.png"
 
 export default function Achivements() {
   return (
-    <div className=" container-fluid">
+    <div className=" container-fluid" id="certificate">
         <h1 className="text-warning text-center   mb-4 "> My Certification</h1>
       <div className="row">
         <div className="col-md-4 ">

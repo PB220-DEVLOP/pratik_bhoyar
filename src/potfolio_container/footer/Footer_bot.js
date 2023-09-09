@@ -53,10 +53,10 @@ export default function Footer_bot() {
         {/* <!-- Grid container --> */}
         {/* 
   <!-- Copyright --> */}
-        <div className="text-center text-dark p-3 foot-bot-copyright ">
+        <div className="text-center text-light  p-3 foot-bot-copyright ">
           © 2023 Copyright:
-          <a className="text-dark" href="https://mdbootstrap.com/">
-            Portfolio.com
+          <a className="text-light " href="https://www.linkedin.com/feed/update/urn:li:activity:7103074192127901696/">
+            PBlinkedin.com
           </a>
         </div>
         {/* <!-- Copyright --> */}

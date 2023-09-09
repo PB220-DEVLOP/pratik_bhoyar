@@ -5,7 +5,7 @@ import Navbar from './Navbar/Navbar'
 import './Home.css'
 export default function Home() {
   return (
-    <div className='home-container'>
+    <div className='home-container' id="home">
      <Navbar/>
      <Profile/>
      <Footer/>

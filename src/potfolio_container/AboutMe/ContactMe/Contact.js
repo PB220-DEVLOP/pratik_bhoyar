@@ -17,7 +17,7 @@ import emailjs from '@emailjs/browser';
   };
 
   return (
-    <div className="container mt-3  ">
+    <div className="container mt-3  " id="contact">
       <h1 className="text-center text-warning ">Contact Us</h1>
       <form ref={form} onSubmit={sendEmail} className=' p-5 text-light  '>
         <label className="form-label ">Name</label>
@@ -26,7 +26,7 @@ import emailjs from '@emailjs/browser';
         <input type="email" name="user_email" className="form-control " /><br/>
         <label className="form-label "> Message</label>
         <textarea name="message" className="form-control" /><br/>
-        <div className='container-fluid d-flex  '>
+        <div className='container-fluid d-flex justify-content-center   '>
         <input type="submit" value="Send" className="btn btn-outline-warning m-auto justify-content-center  "/>
         </div>
       </form>
